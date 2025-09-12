@@ -1,7 +1,7 @@
 // forgepoint.js
 /**
  * Veltroa Forge — forgepoint.js
- * A fuller one-file fullstack example: combines React UI, API endpoints, and Node.js logic
+ * A fuller one-file full-stack example: combines React UI, API endpoints, and Node.js logic
  * inside a single Next.js page file (using both page and API handling).
  */
 
@@ -61,7 +61,7 @@ export async function middleware(req, res, next) {
   return next();
 }
 
-// Server logic: Node.js-style function
+// Server logic: Node. js-style function
 async function generateServerMessage() {
   // Simulate async work (e.g. fetch from DB or external API)
   await new Promise(r => setTimeout(r, 300));
